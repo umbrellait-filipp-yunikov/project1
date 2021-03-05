@@ -1,0 +1,30 @@
+.item {
+    display: inline-block;
+    position: relative;
+  }
+
+  .header__icon {
+    color: #2acb35;
+  }
+
+  .header__buy {
+    position: relative;
+  }
+
+  <li class="header__menu--list item">
+                <a href="#" data-toggle="modal" data-target="#search-modal"
+                  ><i class="header__icon fas fa-search"></i
+                ></a>
+              </li>
+              <li class=""></li>
+              <div class="header__buy">
+                <a href="#"
+                  ><i class="header__icon fas fa-shopping-basket"></i
+                ></a>
+                <span class="order">0</span>
+              </div>
+              <li class="header__menu--btn2">
+                <div class="header__button">
+                  <a href="#" class="header__button--btn btn__none">Order Now</a>
+                </div>
+              </li>
