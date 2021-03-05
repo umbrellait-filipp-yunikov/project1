@@ -113,3 +113,19 @@ btn.on('click', function(e) {
   $('html, body').animate({scrollTop:0}, '300');
 });
 
+
+const mobileMenu = document.querySelector('.mobile__menu');
+const mobileMenuBtn = document.querySelector('.navbar__btn');
+const mobileMenuOverlay = document.querySelector('.overlay');
+const mobileMenuClose = mobileMenu.querySelector('.close-btn')
+
+mobileMenuBtn.onclick = ()=>{
+  mobileMenu.classList.toggle('menu__mobile--open')
+}
+
+mobileMenuClose.onclick = ()=>{
+  mobileMenu.classList.remove('menu__mobile--open')
+}
+
+
+console.log(mobileMenuBtn)
